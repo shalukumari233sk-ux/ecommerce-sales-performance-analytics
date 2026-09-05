@@ -513,7 +513,8 @@ Analyzed customer, product, order, and transaction data using SQL Server to eval
 \\\*\\\*\\\\\\\*\\\\\\\*Project Note\\\\\\\*\\\\\\\*\\\*\\\*
 This project uses a synthetic e-commerce dataset created for portfolio and learning purposes.
 
-
+**Author**
+**Shalu Kumari**
 
 
 
