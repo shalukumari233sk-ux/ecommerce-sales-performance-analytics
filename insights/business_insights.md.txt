@@ -1,0 +1,145 @@
+# Business Insights & Recommendations
+
+## 1. Executive Summary
+
+The e-commerce dataset contains 20 customers, 15 products, and 40 orders.
+
+Analysis of completed orders generated gross revenue of ₹10,88,400 and gross profit of ₹2,48,650, resulting in a gross margin of 22.85%.
+
+The average order value was ₹36,280.
+
+Overall order status analysis shows that 75% of orders were completed, while the remaining orders were cancelled, returned, or pending.
+
+---
+
+## 2. Key Business Insights
+
+### Sales & Profitability
+
+- Completed orders generated ₹10.88 lakh in gross revenue.
+- Gross profit was ₹2.49 lakh.
+- Overall gross margin was 22.85%.
+- Average order value was ₹36,280.
+
+### Order Performance
+
+- 75% of total orders were completed.
+- 10% of orders were cancelled.
+- 7.5% of orders were returned.
+- 7.5% of orders were pending.
+
+The cancelled, returned, and pending orders represent an operational exception area that can be monitored for improvement opportunities.
+
+### Product Performance
+
+Product-level analysis was performed using units sold, revenue, and gross profit.
+
+The analysis identified high-performing products based on revenue and profitability. These products can be prioritized for inventory planning and commercial activity.
+
+### Category Performance
+
+Category-level analysis was performed to compare units sold, revenue, and gross profit.
+
+Categories generating stronger revenue and profitability should receive appropriate inventory and sales focus.
+
+### Customer Performance
+
+Customers were ranked based on completed-order revenue and order count.
+
+High-value and repeat customers can be targeted for customer-retention initiatives.
+
+### Regional Performance
+
+State-level analysis was performed using completed orders, revenue, and gross profit.
+
+The results can help identify stronger-performing markets and regions requiring further investigation.
+
+### Sales Trend
+
+Monthly revenue and gross profit were analyzed to identify changes in sales performance over time.
+
+Based on the monthly analysis:
+
+- January generated the highest revenue at ₹181,900.
+- February revenue was ₹102,600.
+- March revenue was ₹129,600.
+- April revenue was ₹115,200.
+- May revenue was ₹134,500.
+- June revenue was ₹114,200.
+- July revenue was ₹101,600.
+- August revenue was ₹58,500.
+- September revenue was ₹92,300.
+- October generated the lowest revenue at ₹58,000.
+
+The results show a decline in revenue toward the later months, with August and October recording comparatively lower sales.
+
+### Payment Method
+
+Payment methods were analyzed based on completed orders to understand customer payment preferences.
+
+### Discount Analysis
+
+Orders were analyzed across different discount levels to compare completion, cancellation, return, and pending outcomes.
+
+---
+
+## 3. Business Recommendations
+
+### Recommendation 1 — Focus on High-Performing Products
+
+Prioritize inventory availability and commercial activity for products generating strong revenue and gross profit.
+
+### Recommendation 2 — Improve Operational Monitoring
+
+Track cancelled, returned, and pending orders as exception KPIs and investigate recurring causes.
+
+### Recommendation 3 — Strengthen Customer Retention
+
+Identify high-value and repeat customers and consider targeted retention initiatives.
+
+### Recommendation 4 — Review Regional Performance
+
+Compare state-level revenue and profitability to identify markets with stronger potential and areas requiring improvement.
+
+### Recommendation 5 — Monitor Profitability Alongside Revenue
+
+Use gross profit and gross margin alongside revenue when evaluating products and categories.
+
+### Recommendation 6 — Evaluate Discount Effectiveness
+
+Compare discount levels against order completion and operational outcomes before increasing promotional intensity.
+
+### Recommendation 7 — Investigate Monthly Sales Decline
+
+Investigate the reasons behind lower revenue in August and October, including changes in product demand, customer activity, promotions, and product mix.
+
+---
+
+## 4. Data Quality
+
+The dataset was validated using SQL checks for:
+
+- Product selling price versus cost price
+- Orders referencing valid customers
+- Order items referencing valid products
+- Order items referencing valid orders
+
+All data-quality checks returned 0 rows, indicating no exceptions were identified in the current dataset.
+
+---
+
+## 5. SQL Techniques Used
+
+- SELECT
+- WHERE
+- ORDER BY
+- GROUP BY
+- DISTINCT
+- Aggregate Functions
+- INNER JOIN
+- LEFT JOIN
+- CASE
+- HAVING
+- CTEs
+- Window Functions
+- Data Quality Checks
